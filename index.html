@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sumit Saha, Learn with Sumit" />
+    <meta name="description" content="We love JavaScript" />
+    <title>A Simple TO-DO APP</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <section class="container">
+      <div class="logo">
+        <img src="img/logo.png" alt="Ahsanul Hoque" />
+      </div>
+      <h1 id="header" class="header">To-Do App</h1>
+
+      <form class="new-task-container box">
+        <div>
+            <label for="new-task">Add New Task</label>
+        </div>
+        <div>
+            <input type="text" id="new-task" />
+            <input type="submit" id="addTask" value="Add Task" />
+        </div>
+      </form>
+
+      <div class="bothtask">
+          <div class="todo-list box">
+            <h2>Incomplete Tasks</h2>
+            <ul id="items">
+                
+                <!-- Incomplete will be added here -->
+    
+            </ul>
+          </div>
+          <!--todo-list-->
+    
+          <div class="complete-list box">
+            <h2>Completed Tasks</h2>
+            <ul>
+            
+                <!-- completed task will we added here. -->
+    
+            </ul>
+          </div>
+      </div>
+
+      <!--/complete-list-->
+    </section>
+    <!--/container-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
